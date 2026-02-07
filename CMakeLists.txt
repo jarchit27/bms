@@ -11,6 +11,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_library(bank_core
     src/Account.cpp
     src/Bank.cpp
+    src/CurrentAccount.cpp
+    src/SavingsAccount.cpp
 )
 
 target_include_directories(bank_core
