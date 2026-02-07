@@ -32,7 +32,7 @@ Account* Bank::findAccount(int accNumber){
             return account.get();
         }
     }
-    return NULL;
+    return nullptr;
 }
 
 bool Bank::transfer(int  fromAcc, int toAcc, double amount){
